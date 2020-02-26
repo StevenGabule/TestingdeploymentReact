@@ -1,0 +1,49 @@
+{
+  "name": "next-social-media",
+  "version": "1.0.0",
+  "description": "Creat a social media using Nextjs",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon server/app.js --watch server",
+    "start": "node server/app.js",
+    "build": "next build",
+    "deploy": "now --public",
+    "alias": "now alias",
+    "remove:deploy": "now rm next-social-media"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.8.4",
+    "@material-ui/core": "^3.3.0",
+    "@material-ui/icons": "^3.0.1",
+    "axios": "^0.19.2",
+    "compression": "^1.7.4",
+    "connect-mongo": "^3.2.0",
+    "date-fns": "^1.29.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.16.4",
+    "express-session": "^1.16.6",
+    "express-validator": "^5.3.0",
+    "helmet": "^3.21.2",
+    "jimp": "^0.9.3",
+    "jss": "^10.0.4",
+    "mongoose": "^5.8.12",
+    "mongoose-mongodb-errors": "0.0.2",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "next": "^7.0.2",
+    "next-nprogress": "^1.1.0",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.0.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-jss": "^8.6.1",
+    "validator": "^12.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
